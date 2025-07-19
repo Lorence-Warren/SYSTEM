@@ -1,0 +1,225 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white;
+   
+}
+
+.hero {
+    height: 108vh;
+    width: 210vh;
+    background: url('images/1.png') no-repeat center/cover;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.pic {
+    height: 108vh;
+    width: 210vh;
+    background: url('images/2.png') no-repeat center/cover;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+nav {
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    scroll-behavior: smooth;
+}
+
+nav .logo {
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff3385;
+    font-weight: bolder;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    border-bottom: solid black;
+    color: #ff66b2;
+}
+.content {
+    text-align: left;
+    color: white;
+    padding-top: 80px;
+}
+.content label{
+    color: white;
+
+}
+.content .btn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 7px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 98px;
+    height: 40px;
+}
+.content .btn:hover {
+    background-color: #ff3385;
+    transform: scale(1.05);
+}
+.thank {
+    color: white;
+    padding-top: 80px;
+}
+.thank h1 {
+    text-align: center;
+    margin-right:600px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: magenta;
+    text-shadow:
+        2px 2px 0 rgba(0, 0, 0, 0.8),
+       -2px -2px 0 rgba(0, 0, 0, 0.8),
+        2px -2px 0 rgba(0, 0, 0, 0.8),
+       -2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+.col-md-4 {
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+}
+.menu-section h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+   
+}.menu-card {
+    border: 5px solid transparent; 
+    background:linear-gradient(45deg, pink, white, pink) border-box; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 15px;
+    object-position: center;
+
+}
+.menu-card img {
+    width:290px;
+    height: 240px;
+    border-radius: 8px;
+    border: 3px solid magenta;
+}
+.menu-card h3{
+    color: #333;
+    margin: 10px 0;
+}
+.menu-card .btn {
+    background: linear-gradient(45deg, hotpink,fuchsia,hotpink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.menu-card .btn:hover {
+    background: linear-gradient(45deg, magenta,purple);
+    transform: scale(1.05);
+}
+.order{
+    align-items: center;
+    margin: 10px 0;
+
+}
+.order{
+    padding: 20px;
+    width: 1260px;    
+    background: linear-gradient(45deg, hotpink,fuchsia,hotpink);
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.order h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fields {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: 600;
+    color: black;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+.about-us h1{
+    font-weight: bold;
+    color: white;
+}
+.about-us {
+    text-align: justify;
+    color: white;
+    padding: 5px;
+}
+.contact-us h1{
+    color: white;
+}
+.contact-us h4{
+    color: white;
+}
+.contact-us ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-us ul li a p{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
